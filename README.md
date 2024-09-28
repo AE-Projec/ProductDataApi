@@ -8,4 +8,4 @@
 
 ### 1. Projekt klonen
 ```bash
-git clone https://github.com/AE-Projec/product-data-api.git
+git clone https://github.com/AE-Projec/ProductDataApi.git
