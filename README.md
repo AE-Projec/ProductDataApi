@@ -1,5 +1,3 @@
-# ProductDataApi
-
 # Product Data API
 
 ## Voraussetzungen
