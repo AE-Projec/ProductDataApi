@@ -12,10 +12,8 @@ namespace ProductDataAnalyzerAPI.Services
             _httpClient = httpClient;
         }
 
-        public async Task<List<Products>> GetProductsDataAsync()
+        public async Task<List<Products>> GetProductsDataAsync(string url)
         {
-            string url = "https://flapotest.blob.core.windows.net/test/ProductData.json";
-
             var response = await _httpClient.GetAsync(url);
             if (response.IsSuccessStatusCode)
             {
